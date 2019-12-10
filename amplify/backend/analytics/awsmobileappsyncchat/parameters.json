@@ -1,0 +1,20 @@
+{
+    "appName": "awsmobileappsyncchat",
+    "roleName": "pinpointLambdaRolefdd0cda3",
+    "cloudWatchPolicyName": "cloudWatchPolicyfdd0cda3",
+    "pinpointPolicyName": "pinpointPolicyfdd0cda3",
+    "authPolicyName": "pinpoint_amplify_fdd0cda3",
+    "unauthPolicyName": "pinpoint_amplify_fdd0cda3",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    }
+}

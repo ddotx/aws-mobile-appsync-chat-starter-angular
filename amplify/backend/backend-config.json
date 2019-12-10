@@ -1,0 +1,15 @@
+{
+	"auth": {
+		"awsmobileappsyncchat57dd90c2": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": []
+		}
+	},
+	"analytics": {
+		"awsmobileappsyncchat": {
+			"service": "Pinpoint",
+			"providerPlugin": "awscloudformation"
+		}
+	}
+}
